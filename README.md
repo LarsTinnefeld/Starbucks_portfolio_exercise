@@ -21,5 +21,5 @@ Starbucks Corporation is an American multinational chain of coffeehouses and roa
 ## Objectives <a name="objectives"></a>
 The task on hand orginates from a take-home assignment provided by Starbucks and was a portfolio excercise in Udemy's Data Science Nanodegree Program.
 In this assignment Starbucks defines an experiment in which a selection algorithm for an advertising promotion was to be developed and evaluated.
-The objective is to develop an algorithm which can predict which customers are more likely affected by a promotion (are more likely to buy a specific 10$ product). This selection method becomes logic when considering a cost of 0.15$ per each submitted promotion. Beside the algorithm it needed to be evaluated if the method leads to a significance level that proves the effectiveness of the method.
+In particular, this algorithm should predict which customers are more likely affected by a promotion to buy a specific $10-product. Each promotion costs $0.15, which is an important evaluation metric. Beside the algorithm it needed to be evaluated if the method generated suficient significance to proves the effectiveness of the method.
 
