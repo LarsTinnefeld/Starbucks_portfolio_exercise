@@ -24,3 +24,4 @@ In this assignment Starbucks defines an experiment in which a selection algorith
 In particular, this algorithm should predict which customers are more likely affected by a promotion to buy a specific $10-product. Each promotion costs $0.15, which is an important evaluation metric. Beside the algorithm it needed to be evaluated if the method generated suficient significance to proves the effectiveness of the method.
 
 ## Approach <a name="approach"></a>
+...
