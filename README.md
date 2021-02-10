@@ -26,4 +26,4 @@ In particular, this algorithm should predict which customers are more likely aff
 ## Approach <a name="approach"></a>
 As metric for the evaluation two rates were defined:
 
-$$ IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}} $$
+$$IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}}$$
