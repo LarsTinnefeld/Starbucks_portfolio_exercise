@@ -36,3 +36,19 @@ For the evaluation to metrics were defined:
 <a href="https://www.codecogs.com/eqnedit.php?latex=NIR&space;=&space;\left&space;(&space;10&space;*&space;purch_{treat}&space;-&space;0.15&space;*&space;cust_{treat}&space;\right&space;)&space;-&space;10&space;*&space;purch_{ctrl}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?NIR&space;=&space;\left&space;(&space;10&space;*&space;purch_{treat}&space;-&space;0.15&space;*&space;cust_{treat}&space;\right&space;)&space;-&space;10&space;*&space;purch_{ctrl}" title="NIR = \left ( 10 * purch_{treat} - 0.15 * cust_{treat} \right ) - 10 * purch_{ctrl}" /></a>
 
 ## Data <a name="data"></a>
+
+RangeIndex: 84534 entries, 0 to 84533
+Data columns (total 10 columns):
+
+| # |  Column | Non-Null Count | Dtype |
+| --- | --- | --- | --- |
+| 0 | ID | 84534 non-null | int64 |
+| 1 | Promotion | 84534 non-null | object |
+| 2 | purchase | 84534 non-null | int64 |
+| 3 | V1 | 84534 non-null | int64 |
+| 4 | V2 | 84534 non-null | float64 |
+| 5 | V3 | 84534 non-null | float64 |
+| 6 | V4 | 84534 non-null | int64 |
+| 7 | V5 | 84534 non-null | int64 |
+| 8 | V6 | 84534 non-null | int64 |
+| 9 | V7 | 84534 non-null | int64 |
