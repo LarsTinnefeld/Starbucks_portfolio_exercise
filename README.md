@@ -21,7 +21,9 @@ Starbucks Corporation is an American multinational chain of coffeehouses and roa
 ## Objectives <a name="objectives"></a>
 The task on hand orginates from a take-home assignment provided by Starbucks and was a portfolio excercise in Udemy's Data Science Nanodegree Program.
 In this assignment Starbucks defines an experiment in which a selection algorithm for an advertising promotion was to be developed and evaluated.
-In particular, this algorithm should predict which customers are more likely affected by a promotion to buy a specific $10-product. Each promotion costs $0.15, which is an important evaluation metric. Beside the algorithm it needed to be evaluated if the method generated suficient significance to proves the effectiveness of the method.
+In particular, this algorithm should predict which customers are more likely affected by a promotion to buy a specific $10-product. Each promotion costs $0.15, which is an important evaluation metric. Beside the algorithm it needed to be evaluated if the method generated suficient significance to proves the effectiveness of the method. The tasks in detail are:
+1) Analyze the results of the experiment and identify the effect of the Treatment on product purchase and Net Incremental Revenue.
+2) Build a model to select the best customers to target that maximizes the Incremental Response Rate and Net Incremental Revenue.
 
 ## Approach <a name="approach"></a>
 For the evaluation to metrics were defined:
@@ -30,12 +32,11 @@ For the evaluation to metrics were defined:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=IRR&space;=&space;\frac{purch_{treat}}{cust_{treat}}&space;-&space;\frac{purch_{ctrl}}{cust_{ctrl}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?IRR&space;=&space;\frac{purch_{treat}}{cust_{treat}}&space;-&space;\frac{purch_{ctrl}}{cust_{ctrl}}" title="IRR = \frac{purch_{treat}}{cust_{treat}} - \frac{purch_{ctrl}}{cust_{ctrl}}" /></a>
 
-The output of ...
-
-
 **Net Incremental Revenue (NIR)**
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=NIR&space;=&space;\left&space;(&space;10&space;*&space;purch_{treat}&space;-&space;0.15&space;*&space;cust_{treat}&space;\right&space;)&space;-&space;10&space;*&space;purch_{ctrl}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?NIR&space;=&space;\left&space;(&space;10&space;*&space;purch_{treat}&space;-&space;0.15&space;*&space;cust_{treat}&space;\right&space;)&space;-&space;10&space;*&space;purch_{ctrl}" title="NIR = \left ( 10 * purch_{treat} - 0.15 * cust_{treat} \right ) - 10 * purch_{ctrl}" /></a>
+
+The available dataset was used to flag the trarget group (customers who received the promotional offer and also purchased). This new feature represented the binary target variable "y", while the 7 additional features were used as input variables "X". This was the training dataset for machine learning classifiers in order to predict good candidates. By increasing the 
 
 ## Data <a name="data"></a>
 
