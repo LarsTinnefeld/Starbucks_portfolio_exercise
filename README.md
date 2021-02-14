@@ -83,3 +83,4 @@ A check proved that the data came in as clean dataset (no missing values or outl
 
 **Investigating Imbalace**
 
+![Countplot](https://github.com/LarsTinnefeld/Starbucks_portfolio_exercise/blob/main/Imbalance.png?raw=true)
