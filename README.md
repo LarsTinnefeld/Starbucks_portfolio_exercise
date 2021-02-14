@@ -72,3 +72,4 @@ Data columns (total 10 columns):
 | 9 | V7 | 84534 non-null | int64 |
 
 
+## Data preparation <a name="preparation"></a>
