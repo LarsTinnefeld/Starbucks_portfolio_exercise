@@ -26,7 +26,9 @@ In particular, this algorithm should predict which customers are more likely aff
 2) Build a model to select the best customers to target that maximizes the Incremental Response Rate (IRR) and Net Incremental Revenue (NIR).
 
 ## Approach <a name="approach"></a>
-For the evaluation to metrics were defined:
+At the beginning of the exercise it is necessary to investigate if the data is imbalanced. This is required to identify potential causes for wrong or misleading results.
+
+For the evaluation of the analysis two metrics were defined:
 
 **Incremental Response Rate (IRR)**
 
@@ -39,12 +41,17 @@ For the evaluation to metrics were defined:
 
 **Approach for task 1)**
 
-Calculating IRR and NIR will provide generally if there was an impact (IRR) and if this impact would lead to a benefitial outcome (NIR). Further, a statistical method to prove that there is sufficient significance for the validation of the test result will be needed. This was not directly part of the original task but is required in my view. For this, I will develop a 95% confidence interval (right-sided in this case).
+Calculating IRR and NIR show if there is impact (IRR) and if this impact would lead to a benefitial outcome (NIR). Further, a statistical method to prove that there is sufficient significance for the validation of the test result will be needed. This was not directly part of the original task but is required in my view in order to statistically prove if the experiment results have enough evidence to be valid. For this, a 95% confidence interval needs to be defined (right-sided in this case).
 
 
 **Approach for task 2)**
 
-The available dataset was used to flag the trarget group (customers who received the promotional offer and also purchased). This new feature represented the binary target variable "y", while the 7 additional features were used as input variables "X". This was the training dataset for machine learning classifiers in order to predict good candidates.
+The available dataset is used to define and flag the trarget group (customers who received the promotional offer and also purchased) as a new feature in the dataset. This new feature represents the binary target variable "y", while the 7 additional features are used as input variables "X". This represet the training dataset for machine learning classifiers in order to predict good candidates. Following classifiers are used to optimize the results:
+- Support Vector Machine
+- Naive Bayes
+- Random Forest
+
+Each of the results needs to be evaluated with an error matrix and classification metrics (precision, recall and f1-score on a per-class basis).
 
 ## Data <a name="data"></a>
 
