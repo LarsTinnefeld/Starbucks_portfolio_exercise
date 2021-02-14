@@ -79,3 +79,7 @@ Data columns (total 10 columns):
 
 
 ## Data preparation <a name="preparation"></a>
+A check proved that the data came in as clean dataset (no missing values or outliers).
+
+**Investigating Imbalace**
+
