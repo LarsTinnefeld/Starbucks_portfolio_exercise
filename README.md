@@ -23,9 +23,13 @@ The task on hand orginates from a take-home assignment provided by Starbucks and
 In this assignment Starbucks defines an experiment in which a selection algorithm for an advertising promotion was to be developed and evaluated.
 In particular, this algorithm should predict which customers are more likely affected by a promotion to buy a specific $10-product. Each promotion costs $0.15, which is an important evaluation metric. Beside the algorithm it needed to be evaluated if the method generated suficient significance to proves the effectiveness of the method. The tasks in detail are:
 
-**Task 1)** Analyze the results of the experiment and identify the effect of the treatment on product purchase and Net Incremental Revenue (NIR).
+**Task 1)**
 
-**Task 2)** Build a model to select the best customers to target that maximizes the Incremental Response Rate (IRR) and Net Incremental Revenue (NIR).
+Analyze the results of the experiment and identify the effect of the treatment on product purchase and Net Incremental Revenue (NIR).
+
+**Task 2)**
+
+Build a model to select the best customers to target that maximizes the Incremental Response Rate (IRR) and Net Incremental Revenue (NIR).
 
 ## Approach <a name="approach"></a>
 At the beginning of the exercise it is necessary to investigate if the data is imbalanced. This is required to identify potential causes for wrong or misleading results.
