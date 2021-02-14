@@ -36,6 +36,10 @@ For the evaluation to metrics were defined:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=NIR&space;=&space;\left&space;(&space;10&space;*&space;purch_{treat}&space;-&space;0.15&space;*&space;cust_{treat}&space;\right&space;)&space;-&space;10&space;*&space;purch_{ctrl}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?NIR&space;=&space;\left&space;(&space;10&space;*&space;purch_{treat}&space;-&space;0.15&space;*&space;cust_{treat}&space;\right&space;)&space;-&space;10&space;*&space;purch_{ctrl}" title="NIR = \left ( 10 * purch_{treat} - 0.15 * cust_{treat} \right ) - 10 * purch_{ctrl}" /></a>
 
+**Approach for task 1)**
+Calculating IRR and NIR will provide generally if there was an impact (IRR) and if this impact would lead to a benefitial outcome (NIR). Further, 
+
+**Approach for task 2)**
 The available dataset was used to flag the trarget group (customers who received the promotional offer and also purchased). This new feature represented the binary target variable "y", while the 7 additional features were used as input variables "X". This was the training dataset for machine learning classifiers in order to predict good candidates.
 
 ## Data <a name="data"></a>
