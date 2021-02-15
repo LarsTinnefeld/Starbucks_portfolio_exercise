@@ -203,7 +203,7 @@ Classification report:
 
 **Same result, all predictions are negative. This proves that there is a fundamental problem with the data. I assume that this is the result of the above discovered imbalance in the data.**
 
-The effect of imbalanced data can be best seen in the below chart. Samples from C0 always have a higher probability than C1. This is the reason why all models always predict one result. For more information check Baptiste Rocca's article in Towards Data Science.
+The effect of imbalanced data can be best seen in the below chart. Samples from C0 always have a higher probability than C1. This is the reason why all of the above used models always predict 0. For more information on imbalanced data check [Baptiste Rocca's article in Towards Data Science](https://towardsdatascience.com/handling-imbalanced-datasets-in-machine-learning-7a0e84220f28).
 
 ![Chart](https://miro.medium.com/max/1000/1*XASKuQuNP6ynLvKBN3TkyQ.jpeg)
 
