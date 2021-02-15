@@ -122,6 +122,11 @@ For the validation of the experiment outcome statistical hypothesis testing was 
 
 The calculated z-score results in **12.47**. this is an extreme high value. It is not required to calculate the p-value. The resulting p-value for the alternative hypothesis will be close to 0. This means that there is almost no evidence that the experiment result can be explained by the control group statistic (Null hypothesis rejected). The experiment result is statistically significant and a good base for further analysis.
 
-**Anser to Task 1: The experiment results are statistically significant. The experiment has therefore an measurable impact.**
+**IRR: 0.009**
+
+**NIR: -2334.6**
+
+**Anser to Task 1: IRR shows that there is an observable impact of the experiment. Hypothesis testing proves that the experiment results are statistically significant. The experiment has therefore an measurable impact. NIR shows a negative number. This means that the experiment impact is not big enough to result in a monetary benefit.**
+
 
 ## Data modelling <a name="modelling"></a>
