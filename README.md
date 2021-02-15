@@ -109,8 +109,15 @@ For the validation of the experiment outcome statistical hypothesis testing was 
 
 **Pooled proportion:**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=p_{treat}&space;=&space;\frac{n_{purch,treat}&space;&plus;&space;n_{purch,control}}{n_{treat}&space;&plus;&space;n_{treat}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{treat}&space;=&space;\frac{n_{purch,treat}&space;&plus;&space;n_{purch,control}}{n_{treat}&space;&plus;&space;n_{treat}}" title="p_{treat} = \frac{n_{purch,treat} + n_{purch,control}}{n_{treat} + n_{treat}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=p_{treat}&space;=&space;\frac{n_{purch,treat}&space;&plus;&space;n_{purch,control}}{n_{treat}&space;&plus;&space;n_{treat}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{pool}&space;=&space;\frac{n_{purch,treat}&space;&plus;&space;n_{purch,control}}{n_{treat}&space;&plus;&space;n_{treat}}" title="p_{treat} = \frac{n_{purch,treat} + n_{purch,control}}{n_{treat} + n_{treat}}" /></a>
 
 **Standard error:**
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=S_{e}&space;=&space;\sqrt{p_{pool}&space;*&space;\left&space;(&space;1&space;-&space;p_{pool}&space;\right)&space;*&space;(\frac{1}{n_{control}}&space;-&space;\frac{1}{n_{treat}})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{e}&space;=&space;\sqrt{p_{pool}&space;*&space;\left&space;(&space;1&space;-&space;p_{pool}&space;\right)&space;*&space;(\frac{1}{n_{control}}&space;-&space;\frac{1}{n_{treat}})}" title="S_{e} = \sqrt{p_{pool} * \left ( 1 - p_{pool} \right) * (\frac{1}{n_{control}} - \frac{1}{n_{treat}})}" /></a>
+
+
+**Z-score:**
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=Z&space;=&space;\frac{p_{control}&space;-&space;p_{treat}}{S_{e}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Z&space;=&space;\frac{p_{control}&space;-&space;p_{treat}}{S_{e}}" title="Z = \frac{p_{control} - p_{treat}}{S_{e}}" /></a>
+
+The calculated z-score results in **12.47**. this is an expreme high value. It is not required to calculate the p-value. The resulting p-value for the alternative hypothesis will be close to 0. This means that there is almost no evidence that the experiment result can be explained by the control group statistic (Null hypothesis rejected). The experiment result is statistically significant.
