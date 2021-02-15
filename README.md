@@ -222,3 +222,53 @@ I will try three methods:
 ---
 **Upsampling**
 
+I'm using the `resampling` method in `sklearn's utils` class to scale the minority group (our target class) up to the level of the majority group.
+
+Applying the new dataset to the Naive Bayes classifier:
+
+Resulting confusion matrix:
+
+|     | Predicted: No | Predicted: Yes |
+| --- | --- | --- |
+| **Actual: Yes** | 27047 | 56766 |
+| **Actual: No** | 95 | 626 |
+
+Classification report:
+
+|     | Precision | Recall | F1-score | Support |
+| --- | --- | --- | --- | --- |
+| **0** | 1.00 | 0.32 | 0.49 | 83534 |
+| **1** | 0.01 | 0.87 | 0.02 | 721 |
+| **accuracy** |  |  | 0.33 | 84534 |
+| **macro avg** | 0.50 | 0.60 | 0.25 | 84534 |
+| **weighted avg** | 0.99 | 0.33 | 0.48 | 84534 |
+
+**Recall and F1 score for both categories is low. Precision for positive class is very low. This better than before but still not a good approach.**
+
+**Downsampling**
+
+I'm using the `resampling` method in `sklearn's utils` class to scale the majority group down to the level of the minority group.
+
+Applying the new dataset to the Naive Bayes classifier:
+
+Resulting confusion matrix:
+
+|     | Predicted: No | Predicted: Yes |
+| --- | --- | --- |
+| **Actual: Yes** | 30654 | 53159 |
+| **Actual: No** | 113 | 608 |
+
+Classification report:
+
+|     | Precision | Recall | F1-score | Support |
+| --- | --- | --- | --- | --- |
+| **0** | 1.00 | 0.37 | 0.54 | 83534 |
+| **1** | 0.01 | 0.84 | 0.02 | 721 |
+| **accuracy** |  |  | 0.37 | 84534 |
+| **macro avg** | 0.50 | 0.60 | 0.28 | 84534 |
+| **weighted avg** | 0.99 | 0.37 | 0.53 | 84534 |
+
+**This result is not much better.**
+
+---
+**AUROC (Area Under ROC Curve)**
