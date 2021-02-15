@@ -213,6 +213,7 @@ The effect of imbalanced data can be best seen in the below chart. Samples from 
 
 
 ![Chart_2](https://miro.medium.com/max/700/1*4YVk2qmNam23rcX1xuyx7Q.jpeg)
+
 *Chart: Baptiste Rocca
 
 ---
