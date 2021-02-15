@@ -245,6 +245,7 @@ Classification report:
 
 **Recall and F1 score for both categories is low. Precision for positive class is very low. This better than before but still not a good approach.**
 
+---
 **Downsampling**
 
 I'm using the `resampling` method in `sklearn's utils` class to scale the majority group down to the level of the minority group.
@@ -272,3 +273,4 @@ Classification report:
 
 ---
 **AUROC (Area Under ROC Curve)**
+
