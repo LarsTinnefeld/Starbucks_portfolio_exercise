@@ -101,7 +101,7 @@ For the validation of the experiment outcome statistical hypothesis testing was 
 
 **Purchase proportion of control group:**
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=p_{null}&space;=&space;\frac{n_{purch,control}}{n_{control}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{null}&space;=&space;\frac{n_{purch,control}}{n_{control}}" title="p_{null} = \frac{n_{purch,control}}{n_{control}}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=p_{control}&space;=&space;\frac{n_{purch,control}}{n_{control}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{control}&space;=&space;\frac{n_{purch,control}}{n_{control}}" title="p_{control} = \frac{n_{purch,control}}{n_{control}}" /></a>
 
 **Purchase proportion of treated group:**
 
