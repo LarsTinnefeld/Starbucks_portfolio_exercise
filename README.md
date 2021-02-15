@@ -284,7 +284,7 @@ I'm using the `roc_auc_score` method in `sklearn's metrics` class to evaluate th
 
 **Original data: Score 0.638**
 
-There is no good effect on the process. I will go with the updampling method. The result can be optimized by balancing the degree of scaling but in general this would be the model we will chose for now.
+There is no good effect on the process. I will go with the upsampling method. The result can be optimized by balancing the degree of scaling but in general this would be the model we will chose for now.
 
 **Anser to Task 2)**
 
