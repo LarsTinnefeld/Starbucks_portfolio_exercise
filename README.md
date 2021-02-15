@@ -126,7 +126,9 @@ The calculated z-score is **12.47**. This is an extreme high value. It is not re
 
 **NIR: -2334.6**
 
-**Anser to Task 1: IRR shows that there is an observable impact of the experiment. Hypothesis testing proves that the experiment results are statistically significant. The experiment has therefore an measurable impact. NIR shows a negative number. This means that the experiment impact is not big enough to result in a monetary benefit.**
+**Anser to Task 1)**
+
+**IRR shows that there is an observable impact of the experiment. Hypothesis testing proves that the experiment results are statistically significant. The experiment has therefore an measurable impact. NIR shows a negative number. This means that the experiment impact is not big enough to result in a monetary benefit.**
 
 
 ## Data modelling <a name="modelling"></a>
