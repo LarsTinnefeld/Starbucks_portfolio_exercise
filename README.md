@@ -130,3 +130,77 @@ The calculated z-score is **12.47**. This is an extreme high value. It is not re
 
 
 ## Data modelling <a name="modelling"></a>
+The data were split into two dataframes:
+- y: The new binomial (1/0) feature (group which has purchase and treat True)
+- X: Features V1 to V7
+
+---
+**Support Vector Machine**
+
+The classifier was setup with the default settings and trained with the data.
+Resulting confusion matrix:
+
+|     | Predicted: No | Predicted: Yes |
+| --- | --- | --- |
+| **Actual: Yes** | 83813 | 0 |
+| **Actual: No** | 721 | 0 |
+
+Classification report:
+
+|     | Precision | Recall | F1-score | Support |
+| --- | --- | --- | --- | --- |
+| **0** | 0.99 | 1.00 | 1.00 | 83534 |
+| **1** | 0.00 | 0.00 | 0.00 | 721 |
+| **accuracy** |  |  | 0.99 | 84534 |
+| **macro avg** | 0.50 | 0.50 | 0.50 | 84534 |
+| **weighted avg** | 0.98 | 0.99 | 0.99 | 84534 |
+
+**This result is shows, that the model is not predicting correctly. All predictions are negative.**
+
+---
+**Naive Bayes Classifier**
+
+The classifier was setup with the default settings and trained with the data.
+Resulting confusion matrix:
+
+|     | Predicted: No | Predicted: Yes |
+| --- | --- | --- |
+| **Actual: Yes** | 83813 | 0 |
+| **Actual: No** | 721 | 0 |
+
+Classification report:
+
+|     | Precision | Recall | F1-score | Support |
+| --- | --- | --- | --- | --- |
+| **0** | 0.99 | 1.00 | 1.00 | 83534 |
+| **1** | 0.00 | 0.00 | 0.00 | 721 |
+| **accuracy** |  |  | 0.99 | 84534 |
+| **macro avg** | 0.50 | 0.50 | 0.50 | 84534 |
+| **weighted avg** | 0.98 | 0.99 | 0.99 | 84534 |
+
+**This result is exactly the same. All predictions are negative.**
+
+---
+**Random Forest**
+
+The classifier was setup with the default settings and trained with the data.
+Resulting confusion matrix:
+
+|     | Predicted: No | Predicted: Yes |
+| --- | --- | --- |
+| **Actual: Yes** | 83813 | 0 |
+| **Actual: No** | 721 | 0 |
+
+Classification report:
+
+|     | Precision | Recall | F1-score | Support |
+| --- | --- | --- | --- | --- |
+| **0** | 0.99 | 1.00 | 1.00 | 83534 |
+| **1** | 0.00 | 0.00 | 0.00 | 721 |
+| **accuracy** |  |  | 0.99 | 84534 |
+| **macro avg** | 0.50 | 0.50 | 0.50 | 84534 |
+| **weighted avg** | 0.98 | 0.99 | 0.99 | 84534 |
+
+**Same result, all predictions are negative. This proves that there is a fundamental problem with the data. I assume that this is the result of the above discovered imbalance in the data.**
+
+The effect 
