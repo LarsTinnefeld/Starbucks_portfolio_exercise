@@ -97,3 +97,20 @@ With those values there is not question that the imbalance is significant. That 
 
 
 ## Statistical evaluation of the experiment <a name="ab_test"></a>
+For the validation of the experiment outcome statistical hypothesis testing was used. The compared proportions were the purchase rates for each group.
+
+**Purchase proportion of control group:**
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=p_{null}&space;=&space;\frac{n_{purch,control}}{n_{control}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{null}&space;=&space;\frac{n_{purch,control}}{n_{control}}" title="p_{null} = \frac{n_{purch,control}}{n_{control}}" /></a>
+
+**Purchase proportion of treated group:**
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=p_{treat}&space;=&space;\frac{n_{purch,treat}}{n_{treat}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{treat}&space;=&space;\frac{n_{purch,treat}}{n_{treat}}" title="p_{treat} = \frac{n_{purch,treat}}{n_{treat}}" /></a>
+
+**Pooled proportion:**
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=p_{treat}&space;=&space;\frac{n_{purch,treat}&space;&plus;&space;n_{purch,control}}{n_{treat}&space;&plus;&space;n_{treat}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?p_{treat}&space;=&space;\frac{n_{purch,treat}&space;&plus;&space;n_{purch,control}}{n_{treat}&space;&plus;&space;n_{treat}}" title="p_{treat} = \frac{n_{purch,treat} + n_{purch,control}}{n_{treat} + n_{treat}}" /></a>
+
+**Standard error:**
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=S_{e}&space;=&space;\sqrt{p_{pool}&space;*&space;\left&space;(&space;1&space;-&space;p_{pool}&space;\right)&space;*&space;(\frac{1}{n_{control}}&space;-&space;\frac{1}{n_{treat}})}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_{e}&space;=&space;\sqrt{p_{pool}&space;*&space;\left&space;(&space;1&space;-&space;p_{pool}&space;\right)&space;*&space;(\frac{1}{n_{control}}&space;-&space;\frac{1}{n_{treat}})}" title="S_{e} = \sqrt{p_{pool} * \left ( 1 - p_{pool} \right) * (\frac{1}{n_{control}} - \frac{1}{n_{treat}})}" /></a>
