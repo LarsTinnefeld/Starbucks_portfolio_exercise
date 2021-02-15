@@ -11,9 +11,10 @@ An optimization strategy based on ML prediction and statistical evaluation
 3. [Approach](#approach)
 4. [Data](#data)
 5. [Data preparation](#preparation)
-6. [Data Modelling](#modelling)
-7. [Evaluation](#evaluation)
-8. [References and links](#references)
+6. [Statistical evaluation of the experiment](#ab_test)
+7. [Data Modelling](#modelling)
+8. [Evaluation](#evaluation)
+9. [References and links](#references)
 
 ## About Starbucks <a name="business_understanding"></a>
 Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. As the world's largest coffeehouse chain, Starbucks is seen to be the main representation of the United States' second wave of coffee culture. Source: [Wikipedia](https://en.wikipedia.org/wiki/Starbucks).
@@ -83,4 +84,16 @@ A check proved that the data came in as clean dataset (no missing values or outl
 
 **Investigating Imbalace**
 
+When comparing the sizes of the groups of people that purchased versus people that didn't purchase, it becomes clear that there is an imbalance that likely can affect the classifier.
+
 ![Countplot](https://github.com/LarsTinnefeld/Starbucks_portfolio_exercise/blob/main/Imbalance.png?raw=true)
+
+The statitistical prove of the significance (s. notebook for code):
+
+- **Z-score: 15.9**
+- **P-value: 0.0**
+
+With those values there is not question that the imbalance is significant. That is in line with the visual representation of the bar charts above.
+
+
+## Statistical evaluation of the experiment <a name="ab_test"></a>
