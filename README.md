@@ -209,4 +209,14 @@ The effect of imbalanced data can be best seen in the below chart. Samples from 
 
 *Chart: Baptiste Rocca*
 
+---
+**Dealing with imbalanced data**
+
+I will try three methods:
+- Upsampling
+- Downsampling
+- AUROC (Area Under ROC Curve)
+
+---
+**Upsampling**
 
