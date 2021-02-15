@@ -120,7 +120,7 @@ For the validation of the experiment outcome statistical hypothesis testing was 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Z&space;=&space;\frac{p_{control}&space;-&space;p_{treat}}{S_{e}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Z&space;=&space;\frac{p_{control}&space;-&space;p_{treat}}{S_{e}}" title="Z = \frac{p_{control} - p_{treat}}{S_{e}}" /></a>
 
-The calculated z-score results in **12.47**. this is an extreme high value. It is not required to calculate the p-value. The resulting p-value for the alternative hypothesis will be close to 0. This means that there is almost no evidence that the experiment result can be explained by the control group statistic (Null hypothesis rejected). The experiment result is statistically significant and a good base for further analysis.
+The calculated z-score is **12.47**. This is an extreme high value. It is not required to calculate the p-value. The resulting p-value for the alternative hypothesis will be close to 0. This means that there is almost no evidence that the experiment result can be explained by the control group statistic (Null hypothesis rejected). The experiment result is statistically significant and a good base for further analysis.
 
 **IRR: 0.009**
 
