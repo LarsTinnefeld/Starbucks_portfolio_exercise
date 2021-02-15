@@ -14,7 +14,6 @@ An optimization strategy based on ML prediction and statistical evaluation
 6. [Statistical evaluation of the experiment](#ab_test)
 7. [Data Modelling](#modelling)
 8. [Evaluation](#evaluation)
-9. [References and links](#references)
 
 ## About Starbucks <a name="business_understanding"></a>
 Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. As the world's largest coffeehouse chain, Starbucks is seen to be the main representation of the United States' second wave of coffee culture. Source: [Wikipedia](https://en.wikipedia.org/wiki/Starbucks).
@@ -279,4 +278,14 @@ Classification report:
 ---
 **AUROC (Area Under ROC Curve)**
 
-I'm using the `resampling` method in `sklearn's utils` class to scale the majority group down to the level of the minority group.
+I'm using the `roc_auc_score` method in `sklearn's metrics` class to evaluate the outcome.
+
+**Modified data: Score 0.633**
+
+**Original data: Score 0.638**
+
+There is no good effect on the process. I will go with the updampling method. The result can be optimized by balancing the degree of scaling but in general this would be the model we will chose for now.
+
+**Anser to Task 2)**
+
+**We greated a process to deal with the imbalanced data and predict customers which are better candidats to target with a promotion event. There is still some more work to do, because the predition results are not optimal. But as the challenges are defined we know how to address them.**
