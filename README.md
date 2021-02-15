@@ -211,6 +211,10 @@ The effect of imbalanced data can be best seen in the below chart. Samples from 
 
 *Chart: Baptiste Rocca*
 
+
+![Chart_2](https://miro.medium.com/max/700/1*4YVk2qmNam23rcX1xuyx7Q.jpeg)
+*Chart: Baptiste Rocca
+
 ---
 **Dealing with imbalanced data**
 
@@ -274,3 +278,4 @@ Classification report:
 ---
 **AUROC (Area Under ROC Curve)**
 
+I'm using the `resampling` method in `sklearn's utils` class to scale the majority group down to the level of the minority group.
