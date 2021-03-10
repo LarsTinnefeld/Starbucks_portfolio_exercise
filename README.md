@@ -92,7 +92,7 @@ The statitistical prove of the significance (s. notebook for code):
 - **Z-score: 15.9**
 - **P-value: 0.0**
 
-With those values there is not question that the imbalance is significant. That is in line with the visual representation of the bar charts above.
+With those values there is no question that the imbalance is significant. That is in line with the visual representation of the bar charts above.
 
 
 ## Statistical evaluation of the experiment <a name="ab_test"></a>
