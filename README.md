@@ -92,7 +92,7 @@ The statitistical prove of the significance (s. notebook for code):
 - **Z-score: 15.9**
 - **P-value: 0.0**
 
-With those values there is not question that the imbalance is significant. That is in line with the visual representation of the bar charts above.
+With those values there is no question that the imbalance is significant. That is in line with the visual representation of the bar charts above.
 
 
 ## Statistical evaluation of the experiment <a name="ab_test"></a>
@@ -125,7 +125,7 @@ The calculated z-score is **12.47**. This is an extreme high value. It is not re
 
 **NIR: -2334.6**
 
-**Anser to Task 1)**
+**Answer to Task 1)**
 
 **IRR shows that there is an observable impact of the experiment. Hypothesis testing proves that the experiment results are statistically significant. The experiment has therefore an measurable impact. NIR shows a negative number. This means that the experiment impact is not big enough to result in a monetary benefit.**
 
