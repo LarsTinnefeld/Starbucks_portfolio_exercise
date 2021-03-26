@@ -289,3 +289,4 @@ There is no good effect on the process. I will go with the upsampling method. Th
 **Anser to Task 2)**
 
 **We created a process to deal with the imbalanced data and predict customers which are better candidats to target with a promotion event. There is still some more work to do, because the predition results are not optimal. But as the challenges are defined we know how to address them.**
+
